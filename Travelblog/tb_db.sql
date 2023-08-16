@@ -24,7 +24,7 @@ CREATE TABLE `comment` (
   `comment_id` int(15) NOT NULL AUTO_INCREMENT,
   `user_lid` int(15) DEFAULT NULL,
   `upload_id` int(15) DEFAULT NULL,
-  `comment` varchar(256) DEFAULT NULL,
+  `comment` varchar(300) DEFAULT NULL,
   `date` varchar(15) DEFAULT NULL,
   `time` varchar(15) DEFAULT NULL,
   PRIMARY KEY (`comment_id`)
